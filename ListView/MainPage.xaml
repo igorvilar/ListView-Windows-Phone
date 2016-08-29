@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <ListView x:Name="listView" Margin="10,28,10,10"/>
+        <ListView x:Name="listView" Margin="10,28,10,10" ItemClick="ItemClickAlertItem" SelectionMode="None" IsItemClickEnabled="True" />
 
     </Grid>
 </Page>

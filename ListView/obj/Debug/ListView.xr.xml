@@ -12,6 +12,9 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="ListView.MainPage" />
   </Roots.RootTypes>
