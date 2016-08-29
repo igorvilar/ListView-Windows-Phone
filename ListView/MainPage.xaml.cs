@@ -28,6 +28,10 @@ namespace ListView
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Required;
+            foreach (string value in swiftHeavyMetal)
+            {
+                listView.Items.Add(value);
+            }
 
         }
 
