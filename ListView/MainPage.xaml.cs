@@ -22,11 +22,13 @@ namespace ListView
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        private string[] swiftHeavyMetal = new string[8] { "Alice Cooper", "Black Sabbath", "Deep Purple", "Iron Maiden", "Judas Priest", "Megadeth", "Metallica", "Motörhead" };
         public MainPage()
         {
             this.InitializeComponent();
-
             this.NavigationCacheMode = NavigationCacheMode.Required;
+
         }
 
         /// <summary>
